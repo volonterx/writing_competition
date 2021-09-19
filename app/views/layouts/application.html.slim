@@ -13,4 +13,7 @@ html{lang="ua" xml:lang="ua"}
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
   body
-    = yield
+    section.px-3
+      = render "navigation"
+      = render "notices"
+      = yield

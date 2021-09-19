@@ -15,6 +15,7 @@ gem 'dotenv-rails'
 gem 'pg'
 gem "tailwindcss-rails", "~> 0.4.3"
 gem "slim-rails"
+gem 'devise'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
